@@ -384,7 +384,7 @@ void setup() {
   // **************************************************
 #if SETDATETIME
   dsSendCodes();
-  dsWriteRegisters( SET_YEAR, SET_MONTH, SET_DATE, SET_DOW, SET_HOUR, SET_MINUITE, SET_SECOND );
+  dsWriteRegisters( SET_YEAR, SET_MONTH, SET_DATE, SET_DOW, SET_HOUR, SET_MINUTE, SET_SECOND );
   // dsWriteRegisters( 2019,  1, 19,   5, 20,  21,  20 );
   //           Format :yyyy, mm, dd, dow, hh, min, sec )
   // ***************************************************
